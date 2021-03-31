@@ -22,6 +22,7 @@ class _NavStepperState extends State<NavStepper> {
       height: 72,
       child: Stepper(
             type: StepperType.horizontal,
+            physics: physics: ClampingScrollPhysics(),,
             currentStep: widget.index,
             steps: <Step>[
                Step(
@@ -48,7 +49,12 @@ class _NavStepperState extends State<NavStepper> {
                 isActive: widget.index >= 0,
                 state: widget.index >= 3 ? StepState.complete : StepState.disabled,
               ),
-              
+               Step(
+                title:  Text('Years1'),
+                content:  Text('This is the third step.'),
+                isActive: widget.index >= 0,
+                state: widget.index >= 4 ? StepState.complete : StepState.disabled,
+              ),
             ],
           ),
     );
