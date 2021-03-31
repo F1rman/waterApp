@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">195705933164-lifqcqopr323ktj1ij4ieb0q01q389fe.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">195705933164</string>
+    <string name="google_api_key" translatable="false">AIzaSyBE4qOy-M-_d77rxVz5eO2O9H7V2jGco5A</string>
+    <string name="google_app_id" translatable="false">1:195705933164:android:ec64cdf45cf2dc55bcb749</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBE4qOy-M-_d77rxVz5eO2O9H7V2jGco5A</string>
+    <string name="google_storage_bucket" translatable="false">waterapp-ccb86.appspot.com</string>
+    <string name="project_id" translatable="false">waterapp-ccb86</string>
+</resources>
