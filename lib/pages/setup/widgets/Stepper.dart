@@ -22,7 +22,7 @@ class _NavStepperState extends State<NavStepper> {
       height: 72,
       child: Stepper(
             type: StepperType.horizontal,
-            physics: physics: ClampingScrollPhysics(),,
+            physics: physics: ClampingScrollPhysics(),
             currentStep: widget.index,
             steps: <Step>[
                Step(
